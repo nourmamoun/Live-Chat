@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Live Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <header class="chat-header">
+      <h1>💬 Live Chat</h1>
+    </header>
+    
+    <div id="username-display" class="text-center text-muted mb-3"></div>
+    <div id="online-count" class="online"></div>
+    <div class="chat-box" id="box-chat">
+      
+    </div>
+
+    <form class="chat-form" action="#">
+      <input type="text" id="messageInput" placeholder="Type your message..." autocomplete="off" />
+      <button type="submit" id="sendButton" >Send</button>
+    </form>
+  </div>
+<script src="script.js"></script>
+
+</body>
+</html>

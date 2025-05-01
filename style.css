@@ -1,0 +1,110 @@
+/* General */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #d7d6d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Chat Container */
+  .chat-container {
+    width: 100%;
+    max-width: 600px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Header */
+  .chat-header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  /* Chat Messages */
+  .chat-box {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    background: #f9f9f9;
+  }
+  
+  .chat-box {
+    background: #eef7fb;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    word-wrap: break-word;
+  }
+
+  .message.you {
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #4a90e2;
+    margin-bottom: 8px;
+    color: white;
+  }
+  
+  .message.other {
+    text-align: left;
+    color: white;
+    background-color: #0d6efd;
+    border-radius: 2px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  /* Chat Input Form */
+  .chat-form {
+    display: flex;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    background: #fff;
+
+  }
+  
+  .chat-form input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  .chat-form button {
+    background: #4a90e2;
+    color: white;
+    border: none;
+    padding: 0 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .chat-form button:hover {
+    background: #357abd;
+  }
+
+  .online{
+    font-size: 14px;
+    font-weight: normal;
+    color: green;
+  }
+  
